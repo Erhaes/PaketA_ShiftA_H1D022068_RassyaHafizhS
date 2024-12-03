@@ -1,0 +1,7 @@
+{
+  "name": "responsicars",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
