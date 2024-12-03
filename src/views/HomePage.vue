@@ -141,7 +141,7 @@ const balap = ref<Omit<Balapan, "id" | "createdAt" | "updatedAt">>({
   lintasan: " ",
 });
 
-const completedTodos = computed(() =>
+const balapans = computed(() =>
   listbalap.value)
 );
 const itemRefs = ref<Map<string, HTMLIonItemSlidingElement>>(new Map());
